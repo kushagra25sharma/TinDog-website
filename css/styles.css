@@ -1,0 +1,178 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 50px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: white;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+p{
+  color: grey;
+}
+
+.iphone{
+  transform: rotate(25deg);
+  width:60%;
+  position: absolute;
+  margin-left: 50px;
+}
+
+.btn-dark{
+  margin-right: 20px;
+}
+
+.btn{
+  margin-bottom: 40px;;
+}
+
+.btn-light{
+  color: #000;
+}
+
+.fa-google-play{
+  color: #000;
+}
+
+.navbar{
+  padding:0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.features-text{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: .5em;
+  font-size: 3em;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  height: 10%;
+  margin-top: 20px;
+  align-content: center;
+  margin-bottom: 20px;
+}
+
+.press-img{
+  width: 20%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.colored-h2{
+  color: #000;
+}
+
+.pricing-card{
+  text-align: center;
+  padding-top: 3%;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+
+.cta-h3{
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.footer-icons{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#features{
+  padding-bottom:80px;
+  position: relative;
+  /* z-index: 1; */
+  background-color: #fff;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+}
+
+#press{
+  text-align: center;
+  background-color:#ef8172;
+  padding: 7% 15%;
+}
+
+#pricing{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+  font-family: "Montserrat-Black";
+}
+
+#footer{
+  padding: 7% 15%;
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+@media (max-width:1210px){
+  .iphone{
+    transform: rotate(0);
+    position: static;
+    height: 400px;
+    width: 200px;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
